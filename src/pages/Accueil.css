@@ -1,0 +1,271 @@
+#search_acc{
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    /* border: 1px solid black;
+    border-radius: 20px; */
+}
+/* .searchBtn_acc{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    
+} */
+/* #search_acc IonTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+/* .recherche{
+    width: 50%;
+} */
+/* .search_sec{
+    display: flex;
+    border: 1px solid rgb(54, 52, 52);
+    width: 55%;
+} */
+.search_icon{
+    position: relative;
+    top: 30%;
+}
+/* .homeContainer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+} */
+/* .row{
+    margin-top: 15%;
+} */
+/*----------------------------------------------------------------------------------------- Phone style --------------------------------------------------------------------------------------------*/
+@media (width < 800px) {
+    .villeContainer{
+        width: 90%;
+    }
+    .imgville_accueil{
+        position: relative;
+        left: 50%;
+        transform: translateX(-45%);
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .decouverte{
+        margin-bottom: 20px;
+    }
+    .decouverteTitre{
+        /* position: relative;
+        left: 50%;
+        transform: translateX(-45%); */
+        display: flex;
+        justify-content: center;
+    }
+    .appartTitre{
+        /* position: relative;
+        left: 50%;
+        transform: translateX(-45%); */
+        display: flex;
+        justify-content: center;
+    }
+    .villename_accueil{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-weight: bolder;
+        color: white;
+        font-size: 2.1em;
+    }
+    /*style de la pagination*/
+    .paginationBtns{
+        width: 100%;
+        height: 40px;
+        list-style: none;
+        /* text-decoration: none; */
+        display: flex;
+        justify-content: center;
+        color: #2c2b2b;
+        margin-top: 10px;
+    }
+    .paginationBtns a{
+        padding: 10px;
+        margin: 8px;
+        border-radius: 5px;
+        border: 1px solid #2e91ed;
+    }
+    .paginationBtns a:hover{
+        background-color: #2e91ed;
+        color: #ffffff;
+    }
+    .paginationActive a{
+        background-color: #2e91ed;
+        color: #ffffff;
+    }
+    .previousBtn{
+        text-decoration: none;
+    }
+    .nextBtn{
+        text-decoration: none;
+    }
+    .appartCard_accueil{
+        /* display: flex; */
+        width: 50%;
+    }
+    .row_appartCard_accueil{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+} 
+/*------------------------------------------------------------------------------------------- Tablette style ------------------------------------------------------------------------------------- */
+@media (min-width: 800px ) and (max-width: 1024px) {
+    .villeContainer{
+        width: 90%;
+    }
+    .imgville_accueil{
+        position: relative;
+        left: 50%;
+        transform: translateX(-45%);
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .decouverte{
+        margin-bottom: 20px;
+    }
+    .decouverteTitre{
+        position: relative;
+        left: 50%;
+        transform: translateX(-5%);
+    }
+    .appartTitre{
+        /* position: relative;
+        left: 50%;
+        transform: translateX(-45%); */
+        display: flex;
+        justify-content: center;
+    }
+    .villename_accueil{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-weight: bolder;
+        color: white;
+        font-size: 2.1em;
+    }
+    /*style de la pagination*/
+    .paginationBtns{
+        width: 100%;
+        height: 40px;
+        list-style: none;
+        /* text-decoration: none; */
+        display: flex;
+        justify-content: center;
+        color: #2c2b2b;
+        margin-top: 10px;
+    }
+    .paginationBtns a{
+        padding: 10px;
+        margin: 8px;
+        border-radius: 5px;
+        border: 1px solid #2e91ed;
+    }
+    .paginationBtns a:hover{
+        background-color: #2e91ed;
+        color: #ffffff;
+    }
+    .paginationActive a{
+        background-color: #2e91ed;
+        color: #ffffff;
+    }
+    .previousBtn{
+        text-decoration: none;
+    }
+    .nextBtn{
+        text-decoration: none;
+    }
+   
+}
+/*----------------------------------------------------------------------------------------- PC style --------------------------------------------------------------------------------------------*/ 
+@media (width> 1024px) {
+    .villeContainer{
+        width: 90%;
+    }
+    .imgville_accueil{
+        position: relative;
+        left: 50%;
+        transform: translateX(-45%);
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .decouverte{
+        margin-bottom: 20px;
+    }
+    .decouverteTitre{
+        position: relative;
+        left: 50%;
+        transform: translateX(-5%);
+    }
+    .appartTitre{
+        /* position: relative;
+        left: 50%;
+        transform: translateX(-45%); */
+        display: flex;
+        justify-content: center;
+    }
+    .villename_accueil{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-weight: bolder;
+        color: white;
+        font-size: 2.1em;
+    }
+    /*style de la pagination*/
+    .paginationBtns{
+        width: 100%;
+        height: 40px;
+        list-style: none;
+        /* text-decoration: none; */
+        display: flex;
+        justify-content: center;
+        color: #2c2b2b;
+        margin-top: 10px;
+    }
+    .paginationBtns a{
+        padding: 10px;
+        margin: 8px;
+        border-radius: 5px;
+        border: 1px solid #2e91ed;
+    }
+    .paginationBtns a:hover{
+        background-color: #2e91ed;
+        color: #ffffff;
+    }
+    .paginationActive a{
+        background-color: #2e91ed;
+        color: #ffffff;
+    }
+    .previousBtn{
+        text-decoration: none;
+    }
+    .nextBtn{
+        text-decoration: none;
+    }
+    
+} 
+/* .fabCom{
+    position: absolute;
+    left: 90%;
+    top: 90%;
+    transform: translate(-90%,-90%);
+} */
+/* .modtoolbarc{
+ --ion-background-color: aquamarine;
+    
+}*/

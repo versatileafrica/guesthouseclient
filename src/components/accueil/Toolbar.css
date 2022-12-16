@@ -1,0 +1,44 @@
+#popover-button{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    right: 7%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#popover-button:hover{
+    cursor: pointer ;
+}
+#toolbar_accueil{
+    display: flex;
+}
+/* .title_accueil{
+    color: rgb(210, 210, 5);
+} */
+/* .navbar{
+    height: 50px; 
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.navContainer{
+    width: 100%;
+    max-width: 1250px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title_accueil{
+    font-weight: 500;
+    margin-left: 30px;
+} 
+.navButton{
+    margin-left: 10px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #003580;
+    color: var(--ion-color-tertiary)
+}*/

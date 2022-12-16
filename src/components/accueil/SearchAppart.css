@@ -1,0 +1,55 @@
+/*----------------------------------------------------------------------------------------- Phone style --------------------------------------------------------------------------------------------*/
+@media (width < 800px) {
+    .header_searchAppart{
+        display: flex;
+    }
+    .search_Appart{
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        /* border: 1px solid black; */
+    }
+    .search_Appart ion-searchbar{
+        width: 70%;
+    }
+    .appartCard_searchAppart{
+        /* display: flex; */
+        width: 50%;
+    }
+    .row_appartCard_searchAppart{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+/*------------------------------------------------------------------------------------------- Tablette style ------------------------------------------------------------------------------------- */
+@media (min-width: 800px ) and (max-width: 1024px) {
+    .header_searchAppart{
+        display: flex;
+    }
+    .search_Appart{
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        /* border: 1px solid black; */
+    }
+    .search_Appart ion-searchbar{
+        width: 70%;
+    }
+}
+/*----------------------------------------------------------------------------------------- PC style --------------------------------------------------------------------------------------------*/
+@media (width> 1024px) {
+    .header_searchAppart{
+        display: flex;
+    }
+    .search_Appart{
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        /* border: 1px solid black; */
+    }
+    .search_Appart ion-searchbar{
+        width: 70%;
+    }
+    
+}

@@ -1,0 +1,100 @@
+/*----------------------------------------------------------------------------------------- Phone style --------------------------------------------------------------------------------------------*/
+@media (width < 800px) {
+    .card_accueil{
+        height: 250px;
+        /* width: 90%; */
+        /* width: 40%; */
+    }
+    .cardcontent_accueil{
+        height: 100px;
+        color: black;
+        /* background-color: var(--ion-color-light); */
+    }
+    .imgroom_accueil{
+        height: 150px;
+        /* object-fit:scale-down; */
+        object-fit: cover;
+        /* width:max-content; */
+        width: 100%;
+        border-radius: 5px;
+    }
+    .appartName_RoomSlide{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .appartPrice_RoomSlide{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    /* .heart{
+        position: absolute;
+        right: 2%;
+        z-index: 2;
+    } */
+    
+    
+} 
+/*----------------------------------------------------------------------------------------- Tablette style --------------------------------------------------------------------------------------------*/
+@media (min-width: 800px) and (max-width: 1024px) {
+    .card_accueil{
+        height: 250px;
+        /* width: 95%; */
+    }
+    .cardcontent_accueil{
+        height: 100px;
+        color: black;
+        /* background-color: var(--ion-color-light); */
+    }
+    .imgroom_accueil{
+        height: 150px;
+        /* object-fit:scale-down; */
+        object-fit: cover;
+        /* width:max-content; */
+        width: 100%;
+        border-radius: 5px;
+    }
+    .appartName_RoomSlide{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .appartPrice_RoomSlide{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+  
+} 
+/*----------------------------------------------------------------------------------------- PC style --------------------------------------------------------------------------------------------*/
+@media (width > 1024px) {
+    .card_accueil{
+        height: 350px;
+        /* width: 95%; */
+    }
+    .cardcontent_accueil{
+        height: 100px;
+        color: black;
+        /* background-color: var(--ion-color-light); */
+    }
+    .imgroom_accueil{
+        height: 250px;
+        /* object-fit:scale-down; */
+        object-fit: cover;
+        /* width:max-content; */
+        width: 100%;
+        border-radius: 5px;
+    }
+    .appartName_RoomSlide{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .appartPrice_RoomSlide{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+  
+} 
